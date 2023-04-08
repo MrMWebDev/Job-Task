@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <title>Sign Up</title>
+    
+</head>
+
+<body>
+
+    <h1>Like our blogs?</h1>
+
+    <span class="close" id="collapsible"></span>
+    
+    <main class="main-container" id="mainContainer">
+        
+        <form class="snt-form">
+            <h3>Get the latest news and offers in your inbox</h3>
+            <div class="namerow">
+                <label for="formFirstName">First Name</label>
+                <div class="control">
+                    <input type='text' placeholder="Enter your first name" id='formFirstName' name='FirstName' />
+                </div>
+            </div>
+            <div class="namerow">
+                <label for="formLastName">Last Name</label>
+                <div class="control">
+                    <input type='text' placeholder="Enter your last name" id='formLastName' name='LastName' />
+                </div>
+            </div>
+            <div class="controlgroup">
+                <label for="formEmailAddress">Email Address</label>
+                <div class="control">
+                    <input type='text' placeholder="Enter your email address" id='formEmailAddress' name='EmailAddress' />
+                </div>
+            </div>
+
+            <div class="controlgroup">
+                <label for="formPhoneNumber">Phone Number</label>
+                <div class="control">
+                    <input type='text' placeholder="Enter your phone number" id='formPhoneNumber' name='PhoneNumber' />
+                </div>
+            </div>
+            <div class="checkbox">
+                <label for="PrivacyPolicy">I agree that I have read and accept the <a href="http://www.fortem-international.com/privacy" target="_blank">Privacy Policy</a></label>
+                <input type='checkbox' id='PrivacyPolicy ' name='PrivacyPolicy' required />
+            </div>
+
+            <div class="controlgroup">
+                <div class="control">
+                    <button class="btn" id="submitBtn" type='submit' value='Send me news'>Send me news</button>
+                </div>
+            </div>
+            <!-- The Modal -->
+            <!-- <div id="submitModal" class="modal"> -->
+                <!-- Modal content -->
+                <!-- <div class="modal-content">
+                <span class="close">&times;</span>
+                <p>Congratulations!!!</p>
+                <p>You are subscribed.</p>
+                </div>
+            
+            </div> -->
+            
+        </form>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+</html>

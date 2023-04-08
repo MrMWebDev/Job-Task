@@ -1,0 +1,137 @@
+body {
+    font-family: 'Varela Round', sans-serif;
+    background: linear-gradient(to right, #5d92ba, #3676ab, #426da6);
+}
+
+.main-container {
+    background: transparent;
+    margin: 50px auto;
+    padding: 10px;
+    width: 45%;
+    height: 380px;
+    border: 4px dotted #e9f2f7;
+    display: none;
+    justify-content: center;
+    
+}
+
+h1 {
+    color: #fff;
+    font-weight: 900s;
+    text-align: center;
+    margin-top: 15%;
+}
+
+h3 {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.snt-form * {
+    justify-content: center;
+    
+}
+
+.controlgroup {
+    margin-bottom: 10px;
+    color: #94D3F4;
+}
+
+.namerow {
+    color: #94D3F4;
+    margin-bottom: 10px;
+    display: inline-block;
+    position: relative;
+    left: 4%;
+}
+
+.namerow input {
+    width: 18.3vw;
+    margin-left: 7%;
+    height: 25px;
+    padding-left: 10px;
+}
+
+.snt-form label {
+    margin-bottom: 10px;
+    margin-left: 7%;
+}
+.controlgroup input {
+    height: 25px;
+    width: 85%;
+    margin-left: 7%;
+    padding-left: 10px;
+}
+
+.checkbox {
+    color: #92CDF7;
+}
+
+.checkbox input {
+    float: left;
+    margin-left: 7%;
+}
+
+.checkbox label {
+    margin-left: 0;
+}
+
+.checkbox a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn {
+    font-weight: bold;
+    color: #e9f2f7;
+    background-color: transparent;
+    margin: 20px 37%;
+    border: 2px solid #e9f2f7;
+    padding: 10px 15px;
+    width: 25%;
+    box-shadow: inset 3px 3px 0 1px #325F89, 3px 3px 0 1px #325F89;
+}
+
+.btn:hover {
+    background-color: #e9f2f7;
+    color: #426da6;
+}
+
+  /* The Close Button */
+.close {
+    display: none;
+    color: #e9f2f7;
+    float: right;
+    position: relative;
+    right: 26.5%;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #94D3F4;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.close:after {
+    content: '\00D7';
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+  
+.active:after {
+    content: "\2212";
+  }
+
+  .content {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #f1f1f1;
+  }
